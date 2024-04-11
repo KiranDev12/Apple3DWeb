@@ -9,7 +9,8 @@ import { Canvas } from "@react-three/fiber";
 import { View } from "@react-three/drei";
 import { models, sizes } from "../constants";
 import { animateWithGsapTimeline } from "../utils/animations";
-
+import { helix } from "ldrs";
+helix.register();
 const Model = () => {
   const [size, setSize] = useState("small");
   const [model, setModel] = useState({
@@ -98,7 +99,7 @@ const Model = () => {
           </div>
 
           <div className="mx-auto w-full">
-            <p className="text-sm font-light text-center mb-5">{model.title}</p>
+            <p className="text-xl font-light text-center mb-5">{model.title}</p>
 
             <div className="flex-center">
               <ul className="color-container">
