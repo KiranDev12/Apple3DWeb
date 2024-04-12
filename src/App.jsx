@@ -3,6 +3,8 @@ import Highlights from "./components/Highlights";
 import Navbar from "./components/Navbar";
 import Model from "./components/Model";
 import Features from "./components/Features";
+import HowItWorks from "./components/Hotitworks";
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <main className="bg-black overflow-y-auto">
@@ -11,6 +13,8 @@ const App = () => {
       <Highlights />
       <Model />
       <Features />
+      <HowItWorks />
+      <Footer />
     </main>
   );
 };
