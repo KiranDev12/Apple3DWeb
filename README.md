@@ -1,13 +1,17 @@
 <div align="center">
-  <h3 align="center">Apple iPhone 15 Showcase</h3>
-
-   <div align="center">
-     Check out this awesome project I've built!
-    </div>
+  <h1 align="center">Apple iPhone 15 Showcase</h3>
 </div>
 
 ## <a name="introduction">🤖 Introduction</a>
+
 Welcome to the Apple iPhone 15 Pro website recreation project! This repository showcases the fusion of GSAP animations and Three.js 3D effects to recreate the iconic Apple website experience. Dive in to explore the world of custom animations, immersive 3D models, and captivating user experiences. Let's redefine web design together! 🚀
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
+  <img src="public/assets/1.png" alt="Image 1">
+  <img src="public/assets/2.png" alt="Image 2">
+  <img src="public/assets/3.png" alt="Image 3">
+  <img src="public/assets/4.png" alt="Image 4">
+</div>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -28,4 +32,4 @@ Welcome to the Apple iPhone 15 Pro website recreation project! This repository s
 
 👉 **Completely Responsive**: Consistent access and optimal viewing on any device with a fully responsive design that adapts to different screen sizes.
 
-and many more, including code architecture and reusability 
+and many more, including code architecture and reusability
